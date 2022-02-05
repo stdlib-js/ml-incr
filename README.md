@@ -70,7 +70,7 @@ var incr = ns;
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<body>
 <script type="module">
 
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
@@ -79,7 +79,7 @@ import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@esm/index.mjs';
 console.log( getKeys( ns ) );
 
 </script>
-</head>
+</body>
 </html>
 ```
 
@@ -146,6 +146,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [dependencies-url]: https://david-dm.org/stdlib-js/ml-incr/main
 
 -->
+
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/ml-incr/tree/deno
+[umd-url]: https://github.com/stdlib-js/ml-incr/tree/umd
+[esm-url]: https://github.com/stdlib-js/ml-incr/tree/esm
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
