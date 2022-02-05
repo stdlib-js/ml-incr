@@ -1,0 +1,197 @@
+<!--
+
+@license Apache-2.0
+
+Copyright (c) 2021 The Stdlib Authors.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+# Incremental Machine Learning
+
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
+
+> Incremental machine learning algorithms.
+
+
+
+<section class="usage">
+
+## Usage
+
+To use in Observable,
+
+```javascript
+ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ns;
+})()
+</script>
+```
+
+#### ns
+
+Namespace containing incremental machine learning algorithms.
+
+```javascript
+var incr = ns;
+// returns {...}
+```
+
+<!-- <toc pattern="*"> -->
+
+<div class="namespace-toc">
+
+-   <span class="signature">[`incrBinaryClassification( N[, options] )`][@stdlib/ml/incr/binary-classification]</span><span class="delimiter">: </span><span class="description">incrementally perform binary classification using stochastic gradient descent (SGD).</span>
+-   <span class="signature">[`incrkmeans( k[, ndims][, options] )`][@stdlib/ml/incr/kmeans]</span><span class="delimiter">: </span><span class="description">incrementally partition data into `k` clusters.</span>
+-   <span class="signature">[`incrSGDRegression( [options] )`][@stdlib/ml/incr/sgd-regression]</span><span class="delimiter">: </span><span class="description">online regression via Stochastic Gradient Descent.</span>
+
+</div>
+
+<!-- </toc> -->
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+## Examples
+
+<!-- TODO: better examples -->
+
+<!-- eslint no-undef: "error" -->
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
+
+console.log( getKeys( ns ) );
+
+})()
+</script>
+</body>
+</html>
+```
+
+</section>
+
+<!-- /.examples -->
+
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+
+<section class="main-repo" >
+
+* * *
+
+## Notice
+
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+
+For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
+
+#### Community
+
+[![Chat][chat-image]][chat-url]
+
+---
+
+## License
+
+See [LICENSE][stdlib-license].
+
+
+## Copyright
+
+Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
+
+</section>
+
+<!-- /.stdlib -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/ml-incr.svg
+[npm-url]: https://npmjs.org/package/@stdlib/ml-incr
+
+[test-image]: https://github.com/stdlib-js/ml-incr/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/ml-incr/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ml-incr/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/ml-incr?branch=main
+
+<!--
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/ml-incr.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/ml-incr/main
+
+-->
+
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/ml-incr/tree/deno
+[umd-url]: https://github.com/stdlib-js/ml-incr/tree/umd
+[esm-url]: https://github.com/stdlib-js/ml-incr/tree/esm
+
+[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
+[chat-url]: https://gitter.im/stdlib-js/stdlib/
+
+[stdlib]: https://github.com/stdlib-js/stdlib
+
+[stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ml-incr/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/ml/incr/binary-classification]: https://github.com/stdlib-js/ml-incr-binary-classification/tree/umd
+
+[@stdlib/ml/incr/kmeans]: https://github.com/stdlib-js/ml-incr-kmeans/tree/umd
+
+[@stdlib/ml/incr/sgd-regression]: https://github.com/stdlib-js/ml-incr-sgd-regression/tree/umd
+
+<!-- </toc-links> -->
+
+</section>
+
+<!-- /.links -->
