@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ml-incr",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Incremental machine learning algorithms.",
   "license": "Apache-2.0",
   "author": {
