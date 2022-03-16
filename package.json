@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/ml-incr",
+  "version": "0.0.0",
+  "description": "Incremental machine learning algorithms.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ml-incr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "mathematics",
+    "math",
+    "statistics",
+    "stats",
+    "machine",
+    "learning",
+    "ml",
+    "artificial",
+    "intelligence",
+    "ai",
+    "incr",
+    "incremental",
+    "accumulator"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
