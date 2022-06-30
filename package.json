@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ml-incr",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Incremental machine learning algorithms.",
   "license": "Apache-2.0",
   "author": {
@@ -90,6 +90,7 @@
     "@stdlib/random-sample": "^0.0.x",
     "@stdlib/stats-incr-mean": "^0.0.x",
     "@stdlib/stats-incr-meanstdev": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
