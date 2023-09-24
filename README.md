@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { incrBinaryClassification, incrSGDRegression, incrkmeans } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@esm/index.mjs';
+import { incrBinaryClassification, incrSGDRegression, incrkmeans } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.1.0-esm/index.mjs';
 ```
 
 #### ns
@@ -91,7 +91,7 @@ var incr = ns;
 <script type="module">
 
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.1.0-esm/index.mjs';
 
 console.log( getKeys( ns ) );
 
