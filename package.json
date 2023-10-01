@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@stdlib/ml-incr-binary-classification": "^0.1.0",
-    "@stdlib/ml-incr-kmeans": "^0.0.6",
+    "@stdlib/ml-incr-kmeans": "^0.1.0",
     "@stdlib/ml-incr-sgd-regression": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
