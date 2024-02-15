@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ml-incr/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { incrBinaryClassification, incrSGDRegression, incrkmeans } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.2.0-deno/mod.js';
+import { incrBinaryClassification, incrSGDRegression, incrkmeans } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@deno/mod.js';
 ```
 
 #### ns
@@ -86,7 +91,7 @@ var incr = ns;
 
 ```javascript
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.2.0-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@deno/mod.js';
 
 console.log( getKeys( ns ) );
 ```
