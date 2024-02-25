@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { incrBinaryClassification, incrSGDRegression, incrkmeans } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@deno/mod.js';
+import { incrBinaryClassification, incrSGDRegression, incrkmeans } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.2.1-deno/mod.js';
 ```
 
 #### ns
@@ -86,7 +86,7 @@ var incr = ns;
 
 ```javascript
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ml-incr@v0.2.1-deno/mod.js';
 
 console.log( getKeys( ns ) );
 ```
