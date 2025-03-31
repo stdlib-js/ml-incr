@@ -42,9 +42,9 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-base-assert-contains": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-int8": "^0.2.2",
-    "@stdlib/assert-contains": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-array-like-object": "^0.2.2",

@@ -4,23 +4,62 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-03-31)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="ml-incr-unreleased">
+
+#### [@stdlib/ml/incr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6083](https://github.com/stdlib-js/stdlib/issues/6083)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#6083](https://github.com/stdlib-js/stdlib/issues/6083)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
+-   Athan Reines
 -   Philipp Burckhardt
+-   Sanchay Ketan Sinha
 
 </section>
 
@@ -32,6 +71,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`e03f8cd`](https://github.com/stdlib-js/stdlib/commit/e03f8cd3df4fc2f61313995c31500d5a43d303a3) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`ad586ea`](https://github.com/stdlib-js/stdlib/commit/ad586ea94ab5079d4a097f8a472be16acce1a8cd) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`21cdb49`](https://github.com/stdlib-js/stdlib/commit/21cdb496f2a3fafe672022e1be0e261949f88a27) - **chore:** fix EditorConfig lint errors [(#6086)](https://github.com/stdlib-js/stdlib/pull/6086) _(by Sanchay Ketan Sinha, Aayush Khanna, stdlib-bot)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 
 </details>
