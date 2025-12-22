@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-12-22)
 
 <section class="issues">
 
@@ -24,10 +24,15 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`14fbe2a`](https://github.com/stdlib-js/stdlib/commit/14fbe2a5ced542c4183b6cae8a5d369462a6023a) - **docs:** clean-up TypeScript declarations example code _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`c894b66`](https://github.com/stdlib-js/stdlib/commit/c894b664661bfb87286304b24dd5a1758ae482b7) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`153c9c1`](https://github.com/stdlib-js/stdlib/commit/153c9c19e7e5bc138e18500cea598365d6df55d8) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`70a533c`](https://github.com/stdlib-js/stdlib/commit/70a533c5be519a8432a5a503282a2d852f0ff5f7) - **docs:** clean-up examples _(by Philipp Burckhardt)_
--   [`29719d2`](https://github.com/stdlib-js/stdlib/commit/29719d2f90006e0f54bacb4359f164d08236258a) - **chore:** fix EditorConfig lint errors [(#7279)](https://github.com/stdlib-js/stdlib/pull/7279) _(by zhanggy)_
+-   [`29719d2`](https://github.com/stdlib-js/stdlib/commit/29719d2f90006e0f54bacb4359f164d08236258a) - **chore:** fix EditorConfig lint errors [(#7279)](https://github.com/stdlib-js/stdlib/pull/7279) _(by Geo Daoyu)_
 -   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
--   [`e1e45f6`](https://github.com/stdlib-js/stdlib/commit/e1e45f6323aa212a1ae7bbc0ac584131f7c87805) - **chore:** fix EditorConfig lint errors [(#6860)](https://github.com/stdlib-js/stdlib/pull/6860) _(by zhanggy)_
+-   [`e1e45f6`](https://github.com/stdlib-js/stdlib/commit/e1e45f6323aa212a1ae7bbc0ac584131f7c87805) - **chore:** fix EditorConfig lint errors [(#6860)](https://github.com/stdlib-js/stdlib/pull/6860) _(by Geo Daoyu)_
 -   [`e03f8cd`](https://github.com/stdlib-js/stdlib/commit/e03f8cd3df4fc2f61313995c31500d5a43d303a3) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`ad586ea`](https://github.com/stdlib-js/stdlib/commit/ad586ea94ab5079d4a097f8a472be16acce1a8cd) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`21cdb49`](https://github.com/stdlib-js/stdlib/commit/21cdb496f2a3fafe672022e1be0e261949f88a27) - **chore:** fix EditorConfig lint errors [(#6086)](https://github.com/stdlib-js/stdlib/pull/6086) _(by Sanchay Ketan Sinha, Aayush Khanna, stdlib-bot)_
@@ -47,9 +52,9 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 -   Aayush Khanna
 -   Athan Reines
+-   Geo Daoyu
 -   Philipp Burckhardt
 -   Sanchay Ketan Sinha
--   zhanggy
 
 </section>
 
