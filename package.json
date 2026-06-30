@@ -79,7 +79,7 @@
     "@stdlib/ndarray-base-shape2strides": "^0.2.3",
     "@stdlib/ndarray-base-vind2bind": "^0.2.3",
     "@stdlib/ndarray-ctor": "^0.3.1",
-    "@stdlib/plot": "^0.3.3",
+    "@stdlib/plot": "^0.4.1",
     "@stdlib/random-base-binomial": "^0.2.2",
     "@stdlib/random-base-discrete-uniform": "^0.2.2",
     "@stdlib/random-base-minstd-shuffle": "^0.2.3",
